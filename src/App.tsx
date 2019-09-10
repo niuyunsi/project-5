@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 const App: React.FC = () => {
@@ -7,6 +6,18 @@ const App: React.FC = () => {
     <div className="App">
       <div>
         Project-5
+      </div>
+      <div>
+        with Docker
+      </div>
+      <div>
+        node:10
+      </div>
+      <div>
+        and yarn
+      </div>
+      <div>
+        ver 0.0.1
       </div>
     </div>
   );
