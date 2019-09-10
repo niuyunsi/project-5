@@ -11,6 +11,9 @@ const App: React.FC = () => {
         with Docker
       </div>
       <div>
+        Heroku
+      </div>
+      <div>
         node:10
       </div>
       <div>
