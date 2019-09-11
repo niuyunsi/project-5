@@ -20,7 +20,7 @@ const App: React.FC = () => {
         and yarn
       </div>
       <div>
-        ver 0.0.1
+        ver 0.0.5
       </div>
     </div>
   );
