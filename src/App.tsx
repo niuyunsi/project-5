@@ -10,7 +10,7 @@ const App: React.FC = () => {
       <div>nginx</div>
       <div>node:10</div>
       <div>and yarn</div>
-      <div>ver 0.0.11</div>
+      <div>ver 0.0.13</div>
     </div>
   );
 };
