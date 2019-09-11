@@ -14,7 +14,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start-docker": "$npm_execpath build && $npm_execpath build-docker && docker run -it -p 8000:80 project-5 nginx -g 'daemon off;'",
     "build": "react-scripts build",
+    "build-docker": "docker build -t project-5 .",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
