@@ -43,6 +43,39 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/). -->
 
+# project-5
+
 [![CircleCI](https://circleci.com/gh/niuyunsi/project-5.svg?style=svg)](https://circleci.com/gh/niuyunsi/project-5)
 
-## project-5
+Use Heroku to host dockerized react app.
+
+Project was created by running:
+
+### `npx create-react-app project-5 --typescript`
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `yarn start`
+
+Runs the app in the development mode.<br>
+Open [http://localhost:8000](http://localhost:8000) to view it in the browser.
+
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
+
+### `yarn build`
+
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `make`
+
+Builds the front end app for production and push to heroku container registry, deploy the app after build succeed.
+Open [https://secure-ridge-08274.herokuapp.com](https://secure-ridge-08274.herokuapp.com) to view it in the browser.

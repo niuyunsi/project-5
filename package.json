@@ -1,6 +1,6 @@
 {
   "name": "project-5",
-  "version": "0.1.0",
+  "version": "0.0.16",
   "private": true,
   "dependencies": {
     "@types/jest": "24.0.18",
