@@ -47,7 +47,7 @@ To learn React, check out the [React documentation](https://reactjs.org/). -->
 
 [![CircleCI](https://circleci.com/gh/niuyunsi/project-5.svg?style=svg)](https://circleci.com/gh/niuyunsi/project-5)
 
-Use Heroku to host dockerized react app.
+Deploy a dockerized React App to Heroku.
 
 Project was created by running:
 
