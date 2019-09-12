@@ -1,0 +1,18 @@
+version: 2
+jobs:
+  build:
+    docker:
+    - image: circleci/node
+    steps:
+    - checkout
+    - run:
+        name: install deps
+        command: yarn
+    - run:
+        name: build frontend client
+        command: yarn build
+workflows:
+  version: 2
+  workflow:
+    jobs:
+    - build
